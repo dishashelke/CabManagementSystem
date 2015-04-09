@@ -1,0 +1,201 @@
+/* 
+    Document   : Temp
+    Created on : Oct 4, 2010, 9:51:47 PM
+    Author     : Jayanata
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/*
+root {
+   
+    margin: 0;
+	padding: 0;
+}*/
+
+#outer{
+ 
+   background-color: silver;
+   width: 1000px;
+   height: 650px;
+   margin: auto;
+
+/*   min-width: 1000px;
+   min-height: 1000px;
+   max-height: 1000px;*/
+}
+
+#header{
+    
+    margin: 0 0 0 0;
+    width: 1000px;
+    height: 100px;
+    background-color: aqua;
+    table-layout: auto;
+}
+
+/*#outer div{
+    position: relative;
+    height: 1000px;
+    width: 1000px;
+}*/
+
+#footer{
+   
+      width: 1000px;
+      height: 50px;
+      background-color: aqua;
+} 
+
+#left{
+
+    float: left;
+    margin-top: 19px;
+    width: 21.3%;
+    height: 620px;
+    background-color: teal;
+    border-right-color: red;
+    border-right-width: 1px;
+    border-right-style: solid;
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: #ffff00;
+    text-align: left;
+}
+
+#middle{
+    
+    float: left;
+    margin-top: 19px;
+    width: 52.4%;
+    height: 620px;
+    background-color: teal;
+    overflow: auto;
+    border-right-color: red;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+#right{
+    
+    margin-left:73.5%;
+    margin-top: 19px;
+    width: 26.3%;
+    height: 620px;
+    background-color: teal;
+}
+
+#result{
+    float: left;
+    height: 620px;
+    background-color: teal;
+    width: 100%;
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: #000000;
+    text-align: left;
+}
+
+
+body {
+	margin: 0 auto;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+        
+table
+{
+    background-color: white;
+    border-color: red;
+    table-layout: auto;
+    
+}
+
+
+a:link {
+	color:red;
+}
+a:visited {
+	color:fuchsia;
+	
+}
+a:hover {
+	color:orange;
+	
+}
+a:active {
+	color:#000;
+}
+
+/* For Menubar Only-*/
+
+#sddm
+{
+        margin: 0px;
+	padding: 0;
+        left: 00px;
+        top: 00px;
+	z-index: 0;
+
+}
+
+#sddm li
+{
+        margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+
+}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 100px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none
+}
+
+#sddm li a:hover
+{	background: #49A3FF
+}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2;
+        z-index: 0;
+}
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		white-space: nowrap;
+		text-align: center;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #2875DE;
+		font: 13px arial
+        }
+
+	#sddm div a:hover
+	{	background: #49A3FF;
+		color: #FFF
+        }

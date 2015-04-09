@@ -1,0 +1,218 @@
+/*
+    Document   : Temp
+    Created on : Oct 4, 2010, 9:51:47 PM
+    Author     : Jayanata
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/*
+root {
+
+     margin: 10px;
+	padding: 10px;
+}*/
+
+#outer{
+
+   background-color: #7F765E;
+   /*background-color: #FFFFFF;*/
+   width: 1000px;
+   height: 770px;
+   margin: 2% 1.5% 2% 1.5%;
+
+/*   min-width: 1000px;
+   min-height: 1000px;
+   max-height: 1000px;*/
+}
+
+#header{
+
+    margin: 0 0 0 0;
+    width: 1000px;
+    height: 100px;
+    background-color: #7F765E;
+    table-layout: auto;
+}
+
+/*#outer div{
+    position: relative;
+    height: 1000px;
+    width: 1000px;
+}*/
+
+#footer{
+      margin-top: 650px;
+      width: 1000px;
+      height: 50px;
+      background-color: #7F765E;
+}
+
+#left{
+
+    float: left;
+    margin-top: 19px;
+    margin-left: 1%;
+    width: 21.3%;
+    height: 620px;
+    background-color: #BFB28D;
+    border-right-color: #7F765E;
+    border-right-width: 1px;
+    border-right-style: solid;
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    font-weight: bolder;
+    /*color: #ffff00;*/
+    color: #222;
+    text-align: left;
+}
+
+#middle{
+
+    float: left;
+    margin-top: 19px;
+    margin-left: 1%;
+    width: 52.4%;
+    height: 620px;
+    background-color: #BFB28D;
+    overflow: auto;
+    border-right-color: #7F765E;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+#right{
+    float: left;
+  /*  margin: 19px auto auto 73.3%;*/
+    margin-top: 18px;
+    margin-left: 1%;
+    width: 22.0%;
+    height: 620px;
+    background-color: #BFB28D;
+}
+
+/*#result{
+    float: left;
+    height: 620px;
+    background-color: teal;
+    width: 100%;
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: #000000;
+    text-align: left;
+}*/
+#result{
+    float: left;
+    margin-top: 19px;
+    margin-left: 1%;
+    width: 80%;
+    height: 620px;
+    background-color: #666666;
+    overflow: auto;
+    border-right-color: #7F765E;
+    border-right-width: 1px;
+    border-right-style: solid;
+    font-family: 'Times New Roman',Times,serif;
+}
+
+body {
+	margin: 10px auto auto 150px;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+
+table
+{
+    background-color: #FFFFFF;
+    border-color: red;
+    table-layout: auto;
+
+}
+
+
+a:link {
+	color:black;
+}
+a:visited {
+    color:#222;
+
+}
+a:hover {
+	color:#000;
+
+}
+a:active {
+	color:#000;
+}
+
+/* For Menubar Only-*/
+
+#sddm
+{
+        margin: 0px;
+	padding: 0;
+        left: 00px;
+        top: 00px;
+	z-index: 0;
+
+}
+
+#sddm li
+{
+        margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+
+}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 100px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none
+}
+
+#sddm li a:hover
+{	background: #49A3FF
+}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2;
+        z-index: 0;
+}
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		white-space: nowrap;
+		text-align: center;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #2875DE;
+		font: 13px arial
+        }
+
+	#sddm div a:hover
+	{	background: #49A3FF;
+		color: #FFF
+        }
